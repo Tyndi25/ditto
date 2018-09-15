@@ -2,9 +2,3 @@
 publish = "_dist"
 command = "yarn install && yarn run netlify-lambda build functions"
 functions = "_functions"
-
-[[redirects]]
-from = "/api/v2/:endpoint/"
-to = "/.netlify/functions/resource-list/?endpoint=:endpoint"
-status = 200
-
