@@ -1,3 +1,3 @@
 exports.handler = (event, context, callback) => {
-    callback(null, {statusCode: 200, body: JSON.stringify(event, null, 4)});
+    callback(null, {statusCode: 200, body: "foo"});
 }
