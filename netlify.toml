@@ -1,6 +1,6 @@
 [build]
 publish = "_dist"
-command = "bash build.sh"
+command = "yarn install && yarn run netlify-lambda build functions"
 functions = "_functions"
 
 [[redirects]]
